@@ -36,7 +36,7 @@ const Navbar = () => {
                 </nav>
                 <div 
                     name="login"
-                    className="bg-red-500 rounded-md text-center px-8 py-2 ml-4 max-w-xs"
+                    className="bg-red-500 rounded-md text-center px-8 py-2 ml-4 max-w-xs shadow-md hover:scale-105 hover:opacity-90"
                 >
                     <Link href="/" className="flex justify-center items-center">
                         <iconify-icon icon="material-symbols:account-circle-outline"/>
