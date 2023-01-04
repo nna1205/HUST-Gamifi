@@ -3,7 +3,7 @@ import {comingupFeatures} from '../data/material'
 const Comingup = () => {
     return (
         <section name="coming up" className="flex flex-col justify-center items-center my-20">
-            <span className="text-center text-3xl font-bold lg:text-5xl">What's coming up</span>
+            <span className="text-center text-3xl font-bold lg:text-5xl">What&apos;s coming up</span>
             <div className="flex flex-col justify-center items-center my-8 lg:flex-row">
                 {comingupFeatures.map(feature => {
                     return (

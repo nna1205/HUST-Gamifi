@@ -9,7 +9,7 @@ const TargetUsers = () => {
                     <span className="text-red-500">for everyone</span>
                 </div>
                 <p className="px-0 mt-4 opacity-80 lg:px-20">
-                    Thinky designed as the most innovative way of learning maths. It's interactive, fun and addictive. Solve a few problems everyday and watch your maths skills skyrocket!
+                    Thinky designed as the most innovative way of learning maths. It&apos;s interactive, fun and addictive. Solve a few problems everyday and watch your maths skills skyrocket!
                 </p>
             </div>
             <div className="flex flex-col justify-center items-center my-8 lg:flex-row">

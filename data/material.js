@@ -77,7 +77,7 @@ export const featuresIntro = [
     {
         id: 2,
         label: 'Làm chủ kiến thức',
-        des: "Build confidence with hands-on learning. You'll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think."
+        des: "Build confidence with hands-on learning. Youll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think."
     },
     {
         id: 3,
