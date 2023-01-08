@@ -1,24 +1,30 @@
 import {useState} from 'react'
+import axios from 'axios'
 
 const NewsLetter = () => {
     const [input, setInput] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const form = {
-            input,
+        const data = {
+            email: input,
         }
-        const rawResponse = await fetch('/api/submit', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(form)
-        });
-        console.log(form)
-        const content = await rawResponse.json();
-        setInput('')
+        axios.post('https://sheet.best/api/sheets/3f4f8c6a-0ecf-42c0-aa26-19950b1941ec', data).then((response)=> {
+            console.log(response);
+            setInput('')
+        })
+
+        // const form = input;
+        // const rawResponse = await fetch('/api/submit', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Accept': 'application/json',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(form)
+        // });
+        // console.log(form)
+        // const content = await rawResponse.json();
     }
 
     return (
